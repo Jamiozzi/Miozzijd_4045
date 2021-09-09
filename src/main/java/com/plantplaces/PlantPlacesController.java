@@ -21,6 +21,7 @@ public class PlantPlacesController {
  * @author Administrator
  *
  */
+	@RequestMapping("/")
 public String index() {
 	
 	return "start";
